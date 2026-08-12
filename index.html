@@ -2,776 +2,610 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="robots" content="noindex, nofollow">
-  <title>Home Warranty Coverage — Check Your Plan</title>
-  <meta name="description" content="Check home warranty coverage options for major systems and appliances.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Choice Home Warranty Review 2026: Plans, Coverage &amp; Costs</title>
+  <meta name="description" content="Review Choice Home Warranty plans, covered systems and appliances, optional add-ons, service requests, exclusions and key contract terms before requesting a free quote.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#071b31">
+  <link rel="preload" as="image" href="choice-home-warranty-hero.webp" type="image/webp">
 
-  <script>
-    window.PRELANDER_CONFIG = {
-      DEST: "https://dailybharat.gotrackier.com/click?campaign_id=556&pub_id=2&url_id=2",
-      FALLBACK_SOURCE: "rclmlsn",
-      FALLBACK_CAMPAIGN: "SUBID",
-      FALLBACK_TOKEN: "CLICKID",
-      PASS_ANSWER: false,
-      ANSWER_PARAM: "s2",
-      REDIRECT_DELAY: 850
-    };
-  </script>
+  <!--
+    DEVELOPER HANDOVER
+    1. Replace HomeCover Review with the publisher's real brand name.
+    2. All offer CTAs use the supplied Choice Home Warranty tracking URL.
+    3. NETWORKID, {publisher_id}, and {click_id} must be replaced by the
+       affiliate platform or traffic source before launch.
+    4. CTA clicks push offer_click to dataLayer for GTM/GA4 tracking.
+    5. Add working Privacy, Terms, Contact and Advertiser Disclosure URLs.
+    6. Verify state availability, offer terms and the current user agreement
+       immediately before publishing.
+  -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
 
   <style>
-    :root {
-      --blue: #1769e0;
-      --blue-dark: #0d4fb8;
-      --navy: #0d2b49;
-      --black: #17212b;
-      --muted: #516b84;
-      --sky: #eef7ff;
-      --line: #d7e6f4;
-      --white: #ffffff;
+    :root{
+      --navy:#071b31;
+      --navy-2:#0d2948;
+      --blue:#1169c9;
+      --blue-dark:#0b4f9b;
+      --blue-soft:#edf6ff;
+      --cyan:#25a9e0;
+      --gold:#f5c451;
+      --ink:#132033;
+      --body:#526176;
+      --muted:#758399;
+      --line:#dce4ed;
+      --soft:#f6f9fc;
+      --white:#fff;
+      --green:#087d61;
+      --red:#b42318;
+      --shadow:0 18px 48px rgba(7,27,49,.12);
+      --radius:12px;
+      --wrap:1080px;
+      --font:'Work Sans',system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
     }
 
-    * {
-      box-sizing: border-box;
-      -webkit-tap-highlight-color: transparent;
+    *,*::before,*::after{box-sizing:border-box}
+    html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+    body{margin:0;background:#fff;color:var(--ink);font-family:var(--font);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+    a{color:var(--blue);text-underline-offset:3px}
+    button{font:inherit}
+    h1,h2,h3,h4{margin:0;line-height:1.2;letter-spacing:-.025em}
+    p{margin:0}
+    :focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+    .wrap{width:min(100% - 36px,var(--wrap));margin-inline:auto}
+
+    .top{position:sticky;top:0;z-index:100;background:var(--navy);box-shadow:0 1px 0 rgba(255,255,255,.08)}
+    .top-in{height:58px;display:flex;align-items:center;justify-content:space-between;gap:22px}
+    .brand{display:flex;align-items:center;gap:9px;color:#fff;text-decoration:none;white-space:nowrap}
+    .brand-icon{width:31px;height:31px;border-radius:8px;background:linear-gradient(145deg,var(--cyan),var(--blue));display:grid;place-items:center;box-shadow:inset 0 0 0 1px rgba(255,255,255,.2)}
+    .brand-icon svg{width:18px;height:18px;fill:#fff}
+    .brand-name{font-size:18px;font-weight:800;letter-spacing:-.04em}
+    .brand-name small{font-size:10px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;opacity:.76;margin-left:5px}
+    .top nav{display:none;align-items:center;gap:25px}
+    .top nav a{color:#dbe7f4;text-decoration:none;font-size:13.5px;font-weight:600}
+    .top nav a:hover{color:#fff}
+    .menu{border:0;background:transparent;color:#fff;font-size:22px;line-height:1;padding:7px;cursor:pointer}
+
+    .jump{position:sticky;top:58px;z-index:90;background:rgba(255,255,255,.97);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+    .jump-in{display:flex;gap:8px;overflow-x:auto;padding:10px 18px;scrollbar-width:none}
+    .jump-in::-webkit-scrollbar{display:none}
+    .jump a{flex:none;border:1px solid var(--line);border-radius:999px;padding:7px 13px;text-decoration:none;color:var(--ink);background:#fff;font-size:13px;font-weight:600}
+    .jump a:hover{border-color:var(--blue);color:var(--blue)}
+
+    .hero{position:relative;overflow:hidden;background:linear-gradient(120deg,#06172a 0%,#0a3158 60%,#1169c9 130%);color:#fff;padding:44px 0 104px}
+    .hero::before{content:"";position:absolute;right:-120px;top:-180px;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(37,169,224,.32),transparent 67%)}
+    .hero::after{content:"";position:absolute;inset:auto 0 0;height:90px;background:linear-gradient(to top,rgba(0,0,0,.12),transparent)}
+    .hero-grid{position:relative;z-index:2;display:grid;gap:28px;align-items:center}
+    .eyebrow{display:inline-flex;align-items:center;gap:7px;margin-bottom:13px;color:#bdeaff;font-size:12px;font-weight:800;letter-spacing:.09em;text-transform:uppercase}
+    .eyebrow::before{content:"";width:22px;height:2px;background:var(--cyan)}
+    .hero h1{font-size:clamp(34px,7vw,54px);max-width:760px;letter-spacing:-.045em}
+    .hero .sub{margin-top:15px;max-width:680px;color:#dce8f4;font-size:17px;line-height:1.55}
+    .byline{margin-top:18px;color:#aac0d5;font-size:12.5px}
+    .byline b{color:#fff}
+    .disclose{margin-top:18px;max-width:720px;padding:12px 14px;border:1px solid rgba(255,255,255,.16);border-radius:8px;background:rgba(255,255,255,.08);font-size:12px;color:#dce8f4;line-height:1.55}
+    .disclose a{color:#fff;font-weight:600}
+    .hero-proof{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:24px;max-width:700px}
+    .proof{padding:12px;border:1px solid rgba(255,255,255,.14);border-radius:9px;background:rgba(255,255,255,.07)}
+    .proof b{display:block;font-size:13px;color:#fff}
+    .proof span{display:block;margin-top:2px;color:#b8cbdd;font-size:11px;line-height:1.35}
+    .hero-visual{height:220px;border:1px solid rgba(255,255,255,.22);border-radius:18px;background-image:linear-gradient(180deg,rgba(7,27,49,.03),rgba(7,27,49,.18)),url('choice-home-warranty-hero.webp');background-size:cover;background-position:63% center;box-shadow:0 22px 48px rgba(0,0,0,.25);overflow:hidden}
+
+    .summary{position:relative;z-index:5;margin-top:-66px}
+    .summary-grid{display:grid;gap:13px}
+    .mini{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow)}
+    .mini.featured{border:2px solid var(--gold);background:linear-gradient(180deg,#fffdf5,#fff)}
+    .pill{display:inline-flex;align-items:center;border-radius:5px;background:var(--navy);color:#fff;padding:5px 9px;font-size:10px;font-weight:800;letter-spacing:.07em;text-transform:uppercase}
+    .pill.gold{background:var(--gold);color:#4a3600}
+    .mini h3{margin-top:11px;font-size:19px}
+    .mini p{margin-top:6px;min-height:42px;color:var(--body);font-size:13.5px;line-height:1.45}
+    .mini a{display:inline-flex;align-items:center;gap:6px;margin-top:12px;text-decoration:none;color:var(--blue);font-size:13.5px;font-weight:800}
+
+    main{padding:42px 0 90px}
+    section[id]{scroll-margin-top:122px}
+    .section-head{margin-bottom:20px}
+    .section-head h2,.article h2,.faq h2{font-size:clamp(25px,4vw,34px);letter-spacing:-.035em}
+    .section-head p{margin-top:7px;color:var(--body);font-size:14.5px}
+
+    .offer{border:2px solid var(--gold);border-radius:var(--radius);background:linear-gradient(180deg,#fffdf5 0,#fff 55%);padding:21px;box-shadow:0 14px 38px rgba(7,27,49,.1)}
+    .offer-badge{display:inline-flex;align-items:center;gap:7px;padding:6px 10px;border-radius:5px;background:var(--gold);color:#4a3600;font-size:10.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+    .offer-grid{display:grid;gap:22px;margin-top:17px}
+    .choice-lockup{display:flex;align-items:center;gap:12px}
+    .shield{width:48px;height:48px;border-radius:12px;background:linear-gradient(145deg,var(--cyan),var(--blue));display:grid;place-items:center;box-shadow:0 8px 20px rgba(17,105,201,.2)}
+    .shield svg{width:26px;height:26px;fill:#fff}
+    .choice-name{font-size:23px;font-weight:800;letter-spacing:-.045em;color:var(--navy)}
+    .choice-name span{display:block;font-size:10px;color:var(--blue);letter-spacing:.16em;text-transform:uppercase}
+    .offer h3{margin-top:17px;font-size:23px}
+    .why-line{margin-top:9px;color:var(--body);font-size:14.5px}
+    .why-line b{color:var(--ink)}
+    .specs{display:grid;grid-template-columns:1fr 1fr;gap:1px;margin-top:17px;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--line)}
+    .specs div{padding:11px;background:#fff}
+    .specs dt{color:var(--muted);font-size:10px;font-weight:800;letter-spacing:.07em;text-transform:uppercase}
+    .specs dd{margin:2px 0 0;color:var(--ink);font-size:13.5px;font-weight:700}
+    .checks{list-style:none;margin:17px 0 0;padding:0;display:grid;gap:10px}
+    .checks li{position:relative;padding-left:27px;color:var(--body);font-size:14.5px;line-height:1.45}
+    .checks li::before{content:"✓";position:absolute;left:0;top:0;width:19px;height:19px;border-radius:50%;background:#e5f7f1;color:var(--green);display:grid;place-items:center;font-size:12px;font-weight:900}
+    .btn{display:flex;width:100%;align-items:center;justify-content:center;gap:8px;border:0;border-radius:9px;background:var(--blue);color:#fff;text-decoration:none;padding:15px 18px;font-size:16px;font-weight:800;box-shadow:0 8px 18px rgba(17,105,201,.22);transition:transform .16s,background .16s}
+    .btn:hover{background:var(--blue-dark);transform:translateY(-1px)}
+    .fine{margin-top:9px;color:var(--muted);text-align:center;font-size:11.5px;line-height:1.4}
+    .accordion{margin-top:16px;border:1px solid var(--line);border-radius:9px;background:#fff;overflow:hidden}
+    .accordion button{width:100%;display:flex;align-items:center;justify-content:space-between;gap:14px;border:0;background:#fff;color:var(--blue);padding:14px;text-align:left;font-weight:700;cursor:pointer}
+    .accordion .answer{display:none;padding:0 14px 15px;color:var(--body);font-size:14px}
+    .accordion.open .answer{display:block}
+    .accordion .chev{transition:transform .18s}
+    .accordion.open .chev{transform:rotate(180deg)}
+
+    .plans{display:grid;gap:15px;margin-top:30px}
+    .plan{border:1px solid var(--line);border-radius:var(--radius);padding:20px;background:#fff}
+    .plan.popular{border-color:var(--blue);box-shadow:0 12px 30px rgba(17,105,201,.1)}
+    .plan-tag{display:inline-block;padding:4px 8px;border-radius:4px;background:var(--blue-soft);color:var(--blue);font-size:10px;font-weight:800;letter-spacing:.07em;text-transform:uppercase}
+    .plan h3{margin-top:10px;font-size:21px}
+    .plan p{margin-top:7px;color:var(--body);font-size:14px}
+    .plan ul{margin:13px 0 0;padding-left:19px;color:var(--body);font-size:13.5px}
+    .plan li{margin:6px 0}
+    .text-link{display:inline-flex;margin-top:14px;align-items:center;gap:5px;color:var(--blue);font-size:13.5px;font-weight:800;text-decoration:none}
+
+    .article{max-width:820px;margin:50px auto 0}
+    .article h2{margin:45px 0 12px}
+    .article h3{margin:27px 0 8px;font-size:20px}
+    .article p{margin-bottom:14px;color:var(--body)}
+    .article strong{color:var(--ink)}
+    .note,.warning{margin:22px 0;border-radius:9px;padding:16px 18px}
+    .note{border-left:4px solid var(--blue);background:var(--blue-soft)}
+    .warning{border-left:4px solid var(--gold);background:#fff9e9}
+    .note b,.warning b{display:block;margin-bottom:5px;color:var(--ink);font-size:13px;text-transform:uppercase;letter-spacing:.06em}
+    .note p,.warning p{margin:0;font-size:14px}
+    .table-wrap{overflow-x:auto;margin:20px 0;border:1px solid var(--line);border-radius:10px}
+    table{width:100%;min-width:670px;border-collapse:collapse;background:#fff;font-size:13.5px}
+    th{background:var(--navy);color:#fff;text-align:left;font-size:11px;letter-spacing:.05em;text-transform:uppercase}
+    th,td{padding:12px 13px;border-bottom:1px solid var(--line)}
+    td{color:var(--body)}
+    td:first-child{color:var(--ink);font-weight:700}
+    tr:last-child td{border-bottom:0}
+    .yes{color:var(--green);font-weight:800}
+    .no{color:var(--muted)}
+    .steps{display:grid;gap:12px;margin:20px 0}
+    .step{position:relative;border:1px solid var(--line);border-radius:10px;padding:15px 15px 15px 58px;background:#fff}
+    .step span{position:absolute;left:14px;top:14px;width:30px;height:30px;border-radius:8px;display:grid;place-items:center;background:var(--navy);color:#fff;font-weight:800}
+    .step h4{font-size:15px}
+    .step p{margin:4px 0 0;color:var(--body);font-size:13.5px}
+    .ad{margin:30px 0;border-radius:13px;background:linear-gradient(120deg,var(--navy),var(--navy-2));padding:22px;color:#fff;display:grid;gap:18px;align-items:center}
+    .ad-label{font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:#a9bed2}
+    .ad h3{margin:4px 0 5px;font-size:22px}
+    .ad p{margin:0;color:#cbd9e7;font-size:13.5px}
+    .ad .btn{box-shadow:none}
+    .legal-box{margin-top:35px;padding:18px;border:1px solid var(--line);border-radius:10px;background:var(--soft);font-size:12px;color:var(--muted);line-height:1.55}
+
+    .faq{max-width:820px;margin:55px auto 0}
+    .faq h2{margin-bottom:18px}
+    .qa{border-top:1px solid var(--line)}
+    .qa:last-child{border-bottom:1px solid var(--line)}
+    .qa button{width:100%;display:flex;justify-content:space-between;gap:18px;border:0;background:#fff;padding:17px 2px;color:var(--ink);text-align:left;font-weight:700;cursor:pointer}
+    .qa .ans{display:none;padding:0 28px 17px 2px;color:var(--body);font-size:14.5px}
+    .qa.open .ans{display:block}
+    .qa .chev{color:var(--blue);transition:transform .18s}
+    .qa.open .chev{transform:rotate(180deg)}
+
+    footer{background:var(--navy);color:#fff;padding:42px 0 100px}
+    .foot-grid{display:grid;gap:28px}
+    .foot-disc{margin-top:15px;max-width:560px;color:#aebfd0;font-size:12px;line-height:1.6}
+    footer h4{font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+    footer ul{list-style:none;margin:11px 0 0;padding:0;display:grid;gap:8px}
+    footer a{color:#cbd9e7;text-decoration:none;font-size:12.5px}
+    .copyright{margin-top:28px;padding-top:18px;border-top:1px solid rgba(255,255,255,.1);color:#849bb1;font-size:11.5px}
+
+    .dock{position:fixed;z-index:120;left:12px;right:12px;bottom:12px;transform:translateY(140%);transition:transform .25s;background:#fff;border:1px solid var(--line);border-radius:13px;padding:11px 46px 11px 13px;box-shadow:0 14px 40px rgba(7,27,49,.22)}
+    .dock.visible{transform:translateY(0)}
+    .dock.hidden{display:none}
+    .dock-in{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center}
+    .dock b{display:block;font-size:13px}
+    .dock span{display:block;color:var(--muted);font-size:10.5px}
+    .dock .btn{width:auto;padding:11px 14px;font-size:13px;white-space:nowrap}
+    .dock-close{position:absolute;right:10px;top:9px;border:0;background:none;color:var(--muted);cursor:pointer;font-size:16px}
+
+    @media (min-width:700px){
+      .summary-grid,.plans{grid-template-columns:repeat(3,1fr)}
+      .offer-grid{grid-template-columns:minmax(0,1fr) 260px;align-items:end}
+      .hero-proof{grid-template-columns:repeat(3,1fr)}
+      .ad{grid-template-columns:1fr 230px}
+      .foot-grid{grid-template-columns:2fr 1fr 1fr}
+      .dock{left:auto;right:20px;width:430px}
     }
-
-    html,
-    body {
-      margin: 0;
-      min-height: 100%;
+    @media (min-width:900px){
+      .top nav{display:flex}
+      .menu{display:none}
+      .hero{padding:62px 0 116px}
+      .hero-grid{grid-template-columns:minmax(0,1fr) 420px;gap:46px}
+      .hero-visual{height:330px;border-radius:24px;background-position:60% center;transform:rotate(1deg)}
     }
-
-    body {
-      color: var(--navy);
-      background: #f4f9ff;
-      font-family: Arial, Helvetica, sans-serif;
+    @media (max-width:899px){
+      .top nav.mobile{display:flex;position:absolute;top:58px;left:0;right:0;flex-direction:column;align-items:stretch;gap:0;background:var(--navy);padding:4px 18px 15px}
+      .top nav.mobile a{padding:12px 0;border-bottom:1px solid rgba(255,255,255,.08)}
     }
-
-    button {
-      font: inherit;
+    @media (max-width:520px){
+      .wrap{width:min(100% - 26px,var(--wrap))}
+      .brand-name small{display:none}
+      .hero{padding-top:34px}
+      .hero h1{font-size:35px}
+      .hero .sub{font-size:15.5px}
+      .hero-visual{height:210px;border-radius:15px;background-position:59% center}
+      .hero-proof{grid-template-columns:1fr}
+      .proof{padding:10px 12px}
+      .summary{margin-top:-52px}
+      main{padding-top:30px}
+      .offer{padding:17px}
+      .specs{grid-template-columns:1fr}
+      .dock-in{grid-template-columns:1fr}
+      .dock .btn{width:100%}
+      .dock{padding-right:36px}
     }
-
-    .page-shell {
-      min-height: 100dvh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 18px;
-      position: relative;
-      overflow: hidden;
-      isolation: isolate;
-    }
-
-    .ambient {
-      position: fixed;
-      inset: 0;
-      z-index: -2;
-      background-image:
-        linear-gradient(135deg, rgba(255, 255, 255, .94), rgba(232, 245, 255, .91)),
-        url("https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1800&q=88");
-      background-size: cover;
-      background-position: center;
-    }
-
-    .ambient::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background:
-        radial-gradient(circle at 15% 10%, rgba(23, 105, 224, .10), transparent 35%),
-        radial-gradient(circle at 85% 88%, rgba(62, 160, 255, .12), transparent 38%);
-    }
-
-    .prelander-card {
-      width: min(100%, 760px);
-      position: relative;
-      overflow: hidden;
-      border: 1px solid rgba(190, 216, 238, .9);
-      border-radius: 26px;
-      background: rgba(255, 255, 255, .98);
-      box-shadow: 0 24px 65px rgba(31, 91, 137, .16);
-    }
-
-    .accent-line {
-      height: 7px;
-      background: linear-gradient(90deg, #0d4fb8, #2386ed, #79bfff);
-    }
-
-    .card-content {
-      padding: 32px 36px 30px;
-    }
-
-    .question-state {
-      text-align: center;
-    }
-
-    .badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 9px;
-      padding: 10px 22px;
-      margin-bottom: 20px;
-      border: 1px solid #bedcff;
-      border-radius: 999px;
-      color: var(--blue-dark);
-      background: #eaf4ff;
-      box-shadow: 0 8px 20px rgba(23, 105, 224, .10);
-      font-size: 12px;
-      font-weight: 800;
-      letter-spacing: .1em;
-      text-transform: uppercase;
-    }
-
-    .badge-icon {
-      display: grid;
-      place-items: center;
-      width: 18px;
-      height: 18px;
-      border-radius: 6px;
-      color: #ffffff;
-      background: var(--blue);
-      font-size: 11px;
-    }
-
-    h1 {
-      max-width: 690px;
-      margin: 0 auto 16px;
-      color: var(--navy);
-      font-size: clamp(35px, 4vw, 52px);
-      font-weight: 800;
-      line-height: 1.05;
-      letter-spacing: -.045em;
-    }
-
-    .benefit-copy {
-      max-width: 610px;
-      margin: 0 auto 22px;
-      color: var(--muted);
-      font-size: 16px;
-      font-weight: 600;
-      line-height: 1.52;
-    }
-
-    .benefit-copy strong {
-      color: var(--black);
-      font-weight: 800;
-    }
-
-    .question-box {
-      position: relative;
-      padding: 22px 23px 17px;
-      overflow: hidden;
-      border: 1px solid #cfe2f3;
-      border-radius: 20px;
-      background: linear-gradient(180deg, #f5faff 0%, #edf6ff 100%);
-      text-align: left;
-    }
-
-    .question-box::before {
-      content: "";
-      position: absolute;
-      inset: 0 0 auto;
-      height: 5px;
-      background: linear-gradient(90deg, #0d4fb8, #2386ed, #79bfff);
-    }
-
-    h2 {
-      margin: 4px 0 16px;
-      color: var(--navy);
-      font-size: 22px;
-      font-weight: 800;
-      line-height: 1.2;
-      letter-spacing: -.02em;
-    }
-
-    .options {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 11px;
-    }
-
-    .option {
-      width: 100%;
-      min-height: 72px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      padding: 14px 16px;
-      color: var(--black);
-      text-align: left;
-      border: 1.5px solid var(--line);
-      border-radius: 14px;
-      background: #ffffff;
-      box-shadow: 0 4px 13px rgba(36, 91, 132, .05);
-      cursor: pointer;
-      transition: border-color .16s, box-shadow .16s, transform .12s, background .16s;
-    }
-
-    .option:hover {
-      border-color: #63aaf1;
-      box-shadow: 0 8px 20px rgba(23, 105, 224, .11);
-      transform: translateY(-1px);
-    }
-
-    .option:focus-visible {
-      outline: 3px solid rgba(23, 105, 224, .25);
-      outline-offset: 2px;
-    }
-
-    .option:disabled {
-      cursor: default;
-    }
-
-    .option.picked {
-      border-color: var(--blue);
-      background: #e7f2ff;
-      box-shadow: 0 0 0 3px rgba(23, 105, 224, .10);
-      transform: scale(.99);
-    }
-
-    .option-label {
-      font-size: 15px;
-      font-weight: 800;
-      line-height: 1.22;
-    }
-
-    .radio {
-      width: 24px;
-      height: 24px;
-      display: grid;
-      place-items: center;
-      flex: none;
-      border: 2.5px solid #b7cce0;
-      border-radius: 50%;
-      background: #ffffff;
-    }
-
-    .radio span {
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      background: transparent;
-    }
-
-    .picked .radio {
-      border-color: var(--blue);
-    }
-
-    .picked .radio span {
-      background: var(--blue);
-    }
-
-    .secure-note {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 7px;
-      margin-top: 14px;
-      color: #56738d;
-      font-size: 11.5px;
-      font-weight: 800;
-      text-align: center;
-    }
-
-    .secure-note span {
-      color: var(--blue);
-    }
-
-    .trust-row {
-      max-width: 760px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 22px;
-      flex-wrap: wrap;
-      margin: 14px auto 0;
-      color: var(--navy);
-      font-size: 11.5px;
-      font-weight: 800;
-    }
-
-    .trust-row span::before {
-      content: "✓";
-      display: inline-grid;
-      place-items: center;
-      width: 18px;
-      height: 18px;
-      margin-right: 6px;
-      border-radius: 50%;
-      color: #ffffff;
-      background: var(--blue);
-      font-size: 10px;
-    }
-
-    .legal {
-      max-width: 790px;
-      margin: 10px auto 0;
-      color: #6f8397;
-      text-align: center;
-      font-size: 9px;
-      line-height: 1.45;
-    }
-
-    .loading-state {
-      display: none;
-      width: 100%;
-      min-height: 480px;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
-
-    .loading-state.on {
-      display: flex;
-      animation: fade-in .22s ease both;
-    }
-
-    .loading-state h2 {
-      margin: 20px auto 8px;
-      font-size: 30px;
-    }
-
-    .loading-state p {
-      color: var(--muted);
-    }
-
-    .loader-ring {
-      width: 70px;
-      height: 70px;
-      border: 7px solid #dbeeff;
-      border-top-color: var(--blue);
-      border-right-color: #79bfff;
-      border-radius: 50%;
-      animation: spin .85s linear infinite;
-    }
-
-    @keyframes spin {
-      to { transform: rotate(360deg); }
-    }
-
-    @keyframes fade-in {
-      from { opacity: 0; transform: translateY(6px); }
-    }
-
-    @media (max-width: 760px) {
-      .page-shell {
-        justify-content: center;
-        min-height: 100dvh;
-        padding: max(8px, env(safe-area-inset-top)) 10px max(8px, env(safe-area-inset-bottom));
-        overflow: hidden;
-      }
-
-      .ambient {
-        background-image:
-          linear-gradient(160deg, rgba(255, 255, 255, .96), rgba(232, 245, 255, .94)),
-          url("https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1000&q=84");
-        background-position: 58% center;
-      }
-
-      .prelander-card {
-        width: 100%;
-        border-radius: 19px;
-      }
-
-      .accent-line {
-        height: 5px;
-      }
-
-      .card-content {
-        padding: 15px 13px 12px;
-      }
-
-      .badge {
-        padding: 7px 13px;
-        margin-bottom: 10px;
-        font-size: 9px;
-        letter-spacing: .08em;
-      }
-
-      .badge-icon {
-        width: 14px;
-        height: 14px;
-        font-size: 9px;
-      }
-
-      h1 {
-        margin-bottom: 8px;
-        font-size: clamp(25px, 7.5vw, 34px);
-        line-height: 1.03;
-      }
-
-      .desktop-break {
-        display: none;
-      }
-
-      .benefit-copy {
-        margin-bottom: 10px;
-        font-size: 11.5px;
-        line-height: 1.38;
-      }
-
-      .question-box {
-        padding: 13px 10px 9px;
-        border-radius: 15px;
-      }
-
-      .question-box::before {
-        height: 4px;
-      }
-
-      h2 {
-        margin: 1px 0 9px;
-        font-size: 16px;
-      }
-
-      .options {
-        gap: 7px;
-      }
-
-      .option {
-        min-height: 50px;
-        padding: 7px 9px;
-        border-radius: 11px;
-      }
-
-      .option-label {
-        font-size: 11px;
-        line-height: 1.16;
-      }
-
-      .radio {
-        width: 19px;
-        height: 19px;
-        border-width: 2px;
-      }
-
-      .radio span {
-        width: 8px;
-        height: 8px;
-      }
-
-      .secure-note {
-        margin-top: 8px;
-        font-size: 9px;
-      }
-
-      .trust-row {
-        gap: 7px 14px;
-        margin-top: 8px;
-        font-size: 9px;
-      }
-
-      .trust-row span::before {
-        width: 14px;
-        height: 14px;
-        margin-right: 4px;
-        font-size: 8px;
-      }
-
-      .legal {
-        display: none;
-      }
-
-      .loading-state {
-        min-height: 390px;
-      }
-    }
-
-    @media (max-width: 365px) {
-      .page-shell {
-        padding-inline: 7px;
-      }
-
-      .card-content {
-        padding: 12px 9px 9px;
-      }
-
-      h1 {
-        font-size: 23px;
-      }
-
-      .benefit-copy {
-        font-size: 10.5px;
-      }
-
-      .option {
-        min-height: 46px;
-        padding: 6px 7px;
-      }
-
-      .option-label {
-        font-size: 10.2px;
-      }
-
-      .trust-row {
-        gap: 6px 10px;
-        font-size: 8.5px;
-      }
-    }
-
-    @media (max-height: 650px) and (max-width: 760px) {
-      .page-shell {
-        justify-content: flex-start;
-        overflow-y: auto;
-        padding-block: 6px;
-      }
-
-      .badge {
-        margin-bottom: 7px;
-      }
-
-      .card-content {
-        padding-top: 10px;
-      }
-
-      h1 {
-        margin-bottom: 6px;
-        font-size: 23px;
-      }
-
-      .benefit-copy {
-        margin-bottom: 7px;
-        font-size: 10.3px;
-      }
-
-      .question-box {
-        padding-top: 11px;
-      }
-
-      h2 {
-        margin-bottom: 6px;
-        font-size: 15px;
-      }
-
-      .options {
-        gap: 5px;
-      }
-
-      .option {
-        min-height: 44px;
-      }
-
-      .secure-note,
-      .trust-row {
-        margin-top: 5px;
-      }
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      * {
-        animation-duration: .001ms !important;
-        transition-duration: .001ms !important;
-      }
+    @media (prefers-reduced-motion:reduce){
+      *,*::before,*::after{scroll-behavior:auto!important;transition:none!important}
     }
   </style>
 </head>
-
 <body>
-  <main class="page-shell">
-    <div class="ambient" aria-hidden="true"></div>
+  <header class="top">
+    <div class="wrap top-in">
+      <a class="brand" href="#top" aria-label="HomeCover Review home">
+        <span class="brand-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 2 2.5 9.5l1.3 1.6L5 10.2V21h14V10.2l1.2.9 1.3-1.6L12 2zm4.8 16.8H7.2V8.5L12 4.7l4.8 3.8v10.3z"/></svg>
+        </span>
+        <span class="brand-name">HomeCover <small>Review</small></span>
+      </a>
+      <nav id="nav">
+        <a href="#review">Review</a>
+        <a href="#coverage">Coverage</a>
+        <a href="#claims">How it works</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <button class="menu" id="menu" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
 
-    <section class="prelander-card" aria-label="Home warranty plan checker">
-      <div class="accent-line"></div>
+  <div class="jump">
+    <div class="jump-in">
+      <a href="#review">Quick review</a>
+      <a href="#plans">Plans</a>
+      <a href="#coverage">What is covered</a>
+      <a href="#exclusions">Exclusions</a>
+      <a href="#claims">Service requests</a>
+      <a href="#cost">Cost</a>
+      <a href="#faq">FAQ</a>
+    </div>
+  </div>
 
-      <div class="card-content">
-        <div class="question-state" id="question-state">
-          <div class="badge">
-            <span class="badge-icon">✓</span>
-            Home Warranty Plans
+  <section class="hero" id="top">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">Independent coverage guide</span>
+        <h1>Choice Home Warranty Review 2026</h1>
+        <p class="sub">A clear look at plan options, covered home systems and appliances, optional add-ons, service requests and important contract limits.</p>
+        <p class="byline">Reviewed for clarity <b>August 12, 2026</b></p>
+        <div class="disclose">We may earn a commission when you use links on this page. This page is an independent advertising publication and is not the official Choice Home Warranty website. <a href="#disclosure">Advertiser disclosure</a>.</div>
+        <div class="hero-proof">
+          <div class="proof"><b>2 main plans</b><span>Basic Plan and Total Plan</span></div>
+          <div class="proof"><b>24/7 claims access</b><span>Online or by phone</span></div>
+          <div class="proof"><b>Optional add-ons</b><span>For selected extra items</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" role="img" aria-label="Home service technician speaking with a homeowner outside a suburban home"></div>
+    </div>
+  </section>
+
+  <div class="summary">
+    <div class="wrap summary-grid">
+      <article class="mini featured">
+        <span class="pill gold">Most comprehensive</span>
+        <h3>Total Plan</h3>
+        <p>Adds air conditioning, refrigerator, clothes washer and clothes dryer to Basic Plan coverage.</p>
+        <a href="https://chwpromoonline.com/nlp/a/a2/index.php?utm_source=NETWORKID&amp;utm_campaign={publisher_id}&amp;token={click_id}" class="offer-link" data-slot="summary-total">Get a Free Quote →</a>
+      </article>
+      <article class="mini">
+        <span class="pill">Essential coverage</span>
+        <h3>Basic Plan</h3>
+        <p>Covers a broad mix of core systems and commonly used built-in home appliances.</p>
+        <a href="https://chwpromoonline.com/nlp/a/a2/index.php?utm_source=NETWORKID&amp;utm_campaign={publisher_id}&amp;token={click_id}" class="offer-link" data-slot="summary-basic">Compare Coverage →</a>
+      </article>
+      <article class="mini">
+        <span class="pill">Customisable</span>
+        <h3>Optional Coverage</h3>
+        <p>Add selected items such as a pool or spa, well pump, sump pump, septic system or limited roof leak.</p>
+        <a href="https://chwpromoonline.com/nlp/a/a2/index.php?utm_source=NETWORKID&amp;utm_campaign={publisher_id}&amp;token={click_id}" class="offer-link" data-slot="summary-addons">View Quote Options →</a>
+      </article>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <section id="review">
+      <div class="section-head">
+        <h2>Choice Home Warranty at a glance</h2>
+        <p>Coverage is for eligible breakdowns caused by normal wear and tear, subject to the service contract.</p>
+      </div>
+
+      <article class="offer">
+        <span class="offer-badge">Featured provider</span>
+        <div class="offer-grid">
+          <div>
+            <div class="choice-lockup">
+              <span class="shield" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5.1 3.4 9.8 8 11 4.6-1.2 8-5.9 8-11V5l-8-3zm-1.1 14.2-3.6-3.6 1.4-1.4 2.2 2.2 4.8-4.8 1.4 1.4-6.2 6.2z"/></svg></span>
+              <div class="choice-name">Choice Home Warranty<span>Home service contract</span></div>
+            </div>
+            <h3>Broad system and appliance coverage in two plan levels</h3>
+            <p class="why-line"><b>Why homeowners consider it:</b> instead of separately searching for a technician after an eligible breakdown, customers can submit a service request and Choice Home Warranty coordinates with a service professional, subject to the agreement.</p>
+
+            <dl class="specs">
+              <div><dt>Main plans</dt><dd>Basic + Total</dd></div>
+              <div><dt>Claims access</dt><dd>24 hours a day</dd></div>
+              <div><dt>Coverage type</dt><dd>Systems + appliances</dd></div>
+              <div><dt>Quote</dt><dd>Free, no obligation</dd></div>
+            </dl>
+
+            <ul class="checks">
+              <li>Coverage options for heating, electrical and plumbing systems</li>
+              <li>Total Plan includes air conditioning, refrigerator, washer and dryer</li>
+              <li>Optional coverage is available for selected additional home items</li>
+              <li>Service requests can be submitted online or by phone</li>
+            </ul>
           </div>
-
-          <h1>
-            Stop Paying Full Price for<br class="desktop-break">
-            Home Repairs
-          </h1>
-
-          <p class="benefit-copy">
-            Coverage for your
-            <strong>AC, heating, refrigerator, washer, dryer, plumbing and electrical</strong>
-            — 24/7 claims, a nationwide network of local technicians, and
-            <strong>no home inspection required.</strong>
-          </p>
-
-          <div class="question-box">
-            <h2>What do you most want covered?</h2>
-
-            <div class="options" role="group" aria-label="What do you most want covered?">
-              <button type="button" class="option" data-answer="hvac">
-                <span class="option-label">Heating &amp; Cooling</span>
-                <span class="radio" aria-hidden="true"><span></span></span>
-              </button>
-
-              <button type="button" class="option" data-answer="appliances">
-                <span class="option-label">Kitchen &amp; Laundry</span>
-                <span class="radio" aria-hidden="true"><span></span></span>
-              </button>
-
-              <button type="button" class="option" data-answer="plumbing_electrical">
-                <span class="option-label">Plumbing &amp; Electrical</span>
-                <span class="radio" aria-hidden="true"><span></span></span>
-              </button>
-
-              <button type="button" class="option" data-answer="full_home">
-                <span class="option-label">Everything in My Home</span>
-                <span class="radio" aria-hidden="true"><span></span></span>
-              </button>
-            </div>
-
-            <div class="secure-note">
-              <span>▣</span>
-              Select an option to check plans in your area
-            </div>
+          <div>
+            <a href="https://chwpromoonline.com/nlp/a/a2/index.php?utm_source=NETWORKID&amp;utm_campaign={publisher_id}&amp;token={click_id}" class="btn offer-link" data-slot="review-main">Get a Free Quote <span>→</span></a>
+            <p class="fine">No obligation. Plan price and availability depend on your home and location.</p>
           </div>
         </div>
 
-        <div class="loading-state" id="loading-state" aria-live="polite">
-          <div class="loader-ring"></div>
-          <h2>Checking plans in your area…</h2>
-          <p>Next, enter your ZIP code to see availability.</p>
+        <div class="accordion">
+          <button type="button" aria-expanded="false">What should I check before buying?<span class="chev">▾</span></button>
+          <div class="answer">Review the service fee, waiting period, coverage caps, maintenance requirements, item-specific exclusions, cancellation rules and whether your exact systems and appliances qualify. The contract—not a sales summary—controls coverage.</div>
         </div>
+      </article>
+    </section>
+
+    <section class="plans" id="plans" aria-label="Choice Home Warranty plan overview">
+      <article class="plan">
+        <span class="plan-tag">Essential</span>
+        <h3>Basic Plan</h3>
+        <p>Designed for homeowners who want coverage for key home systems and selected built-in appliances.</p>
+        <ul>
+          <li>Heating, electrical and plumbing systems</li>
+          <li>Water heater and plumbing stoppage</li>
+          <li>Oven, cooktop and dishwasher</li>
+          <li>Ductwork and garage door opener</li>
+        </ul>
+        <a class="text-link offer-link" data-slot="plan-basic" href="https://chwpromoonline.com/nlp/a/a2/index.php?utm_source=NETWORKID&amp;utm_campaign={publisher_id}&amp;token={click_id}">Check your price →</a>
+      </article>
+      <article class="plan popular">
+        <span class="plan-tag">More complete</span>
+        <h3>Total Plan</h3>
+        <p>Includes Basic Plan items and adds four major systems and appliances commonly requested by homeowners.</p>
+        <ul>
+          <li>Everything listed in the Basic Plan</li>
+          <li>Air conditioning system</li>
+          <li>Refrigerator</li>
+          <li>Clothes washer and clothes dryer</li>
+        </ul>
+        <a class="text-link offer-link" data-slot="plan-total" href="https://chwpromoonline.com/nlp/a/a2/index.php?utm_source=NETWORKID&amp;utm_campaign={publisher_id}&amp;token={click_id}">Get a Total Plan quote →</a>
+      </article>
+      <article class="plan">
+        <span class="plan-tag">Add-ons</span>
+        <h3>Optional Coverage</h3>
+        <p>Optional items can extend protection, but have their own terms, limits and added cost.</p>
+        <ul>
+          <li>Pool or spa, well pump and sump pump</li>
+          <li>Limited roof leak and central vacuum</li>
+          <li>Septic system and septic tank pumping</li>
+          <li>Second refrigerator or stand-alone freezer</li>
+        </ul>
+        <a class="text-link offer-link" data-slot="plan-addons" href="https://chwpromoonline.com/nlp/a/a2/index.php?utm_source=NETWORKID&amp;utm_campaign={publisher_id}&amp;token={click_id}">View available add-ons →</a>
+      </article>
+    </section>
+
+    <section class="article" id="coverage">
+      <h2>What does Choice Home Warranty cover?</h2>
+      <p>Choice Home Warranty offers service contracts for eligible home systems and appliances that stop working because of normal wear and tear. It is separate from homeowners insurance and from a manufacturer's warranty.</p>
+
+      <div class="note">
+        <b>The practical difference</b>
+        <p>Homeowners insurance generally responds to covered events such as fire or theft. A home service contract can help with eligible mechanical breakdowns of listed systems and appliances.</p>
+      </div>
+
+      <div class="table-wrap" role="region" aria-label="Plan coverage comparison" tabindex="0">
+        <table>
+          <thead><tr><th>Covered item</th><th>Basic Plan</th><th>Total Plan</th></tr></thead>
+          <tbody>
+            <tr><td>Heating system</td><td class="yes">Included</td><td class="yes">Included</td></tr>
+            <tr><td>Electrical system</td><td class="yes">Included</td><td class="yes">Included</td></tr>
+            <tr><td>Plumbing system &amp; stoppage</td><td class="yes">Included</td><td class="yes">Included</td></tr>
+            <tr><td>Water heater</td><td class="yes">Included</td><td class="yes">Included</td></tr>
+            <tr><td>Oven / range / stove</td><td class="yes">Included</td><td class="yes">Included</td></tr>
+            <tr><td>Dishwasher</td><td class="yes">Included</td><td class="yes">Included</td></tr>
+            <tr><td>Air conditioning system</td><td class="no">Not included</td><td class="yes">Included</td></tr>
+            <tr><td>Refrigerator</td><td class="no">Not included</td><td class="yes">Included</td></tr>
+            <tr><td>Clothes washer</td><td class="no">Not included</td><td class="yes">Included</td></tr>
+            <tr><td>Clothes dryer</td><td class="no">Not included</td><td class="yes">Included</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><strong>Important:</strong> “Included” does not mean every part, failure or repair is covered. Eligibility, exclusions, aggregate limits and lower item-specific limits apply under the agreement.</p>
+
+      <div class="ad">
+        <div>
+          <span class="ad-label">Advertisement</span>
+          <h3>See coverage options for your home</h3>
+          <p>Request a free quote and compare the plan options available at your address.</p>
+        </div>
+        <a href="https://chwpromoonline.com/nlp/a/a2/index.php?utm_source=NETWORKID&amp;utm_campaign={publisher_id}&amp;token={click_id}" class="btn offer-link" data-slot="article-coverage">Get My Free Quote →</a>
+      </div>
+
+      <h2 id="exclusions">What may not be covered?</h2>
+      <p>A home service contract is not blanket protection for every home repair. Coverage depends on the exact cause of failure, the covered components and the current agreement.</p>
+      <ul class="checks">
+        <li>Pre-existing, known or detectable conditions may be excluded</li>
+        <li>Damage from misuse, neglect or failure to perform maintenance may not qualify</li>
+        <li>Cosmetic defects and non-covered components are generally outside coverage</li>
+        <li>Structural items and problems normally handled by homeowners insurance are not the purpose of the plan</li>
+        <li>Coverage limits can apply per covered item and per agreement term</li>
+        <li>Choice Home Warranty may determine whether to repair, replace or offer cash in lieu, subject to the agreement</li>
+      </ul>
+      <div class="warning">
+        <b>Read the current agreement</b>
+        <p>Do not rely only on a plan comparison table. Confirm the definitions, service fee, waiting period, exclusions, dollar limits and cash-in-lieu terms for your state before paying.</p>
+      </div>
+
+      <h2 id="claims">How a service request works</h2>
+      <div class="steps">
+        <div class="step"><span>1</span><h4>Submit a service request</h4><p>Report the issue online or by phone. Claims access is available 24 hours a day.</p></div>
+        <div class="step"><span>2</span><h4>Service professional is arranged</h4><p>Choice Home Warranty works to assign a service professional, subject to provider availability and the agreement.</p></div>
+        <div class="step"><span>3</span><h4>Pay the applicable service fee</h4><p>The service fee shown in your coverage details is generally due for each service request.</p></div>
+        <div class="step"><span>4</span><h4>Coverage decision and resolution</h4><p>If the issue is eligible, repair, replacement or another contract-approved resolution may be authorised within applicable limits.</p></div>
+      </div>
+
+      <h2 id="cost">How much does Choice Home Warranty cost?</h2>
+      <p>Pricing can change based on your state, home type, home size, selected plan, optional coverage, available promotions and payment schedule. The cleanest way to get a relevant number is to request a quote for the actual property.</p>
+      <p>When comparing the quote, calculate the <strong>plan price + likely service fees + non-covered costs</strong>. A lower monthly price does not automatically mean a lower total cost.</p>
+
+      <div class="ad">
+        <div>
+          <span class="ad-label">Advertisement</span>
+          <h3>Get pricing for your property</h3>
+          <p>Quote availability and promotions can vary by location and plan selection.</p>
+        </div>
+        <a href="https://chwpromoonline.com/nlp/a/a2/index.php?utm_source=NETWORKID&amp;utm_campaign={publisher_id}&amp;token={click_id}" class="btn offer-link" data-slot="article-cost">Check My Price →</a>
+      </div>
+
+      <h2>Who may find it useful?</h2>
+      <ul class="checks">
+        <li>Homeowners with ageing systems or appliances that are no longer under manufacturer warranty</li>
+        <li>Buyers who want a more predictable process for eligible breakdowns after moving in</li>
+        <li>Sellers who want to add a home protection option during a real estate transaction</li>
+        <li>People who prefer one service-request process instead of independently finding a technician each time</li>
+      </ul>
+      <p>It may be less suitable if your systems are new and fully covered elsewhere, you can comfortably self-fund repairs, or the contract exclusions do not match your home’s likely risks.</p>
+
+      <div class="legal-box" id="disclosure">
+        <strong>Editorial and advertising disclosure:</strong> This is an independent promotional comparison page. We may receive compensation when a visitor clicks an offer link or completes an eligible action. Choice Home Warranty did not necessarily review or approve this editorial page. Choice Home Warranty offers service contracts, not insurance and not a manufacturer's or builder's warranty. Coverage, pricing, service fees, limits, exclusions, promotions and availability vary. California and other state-specific terms may apply. Always read the current service contract before purchase.
       </div>
     </section>
 
-    <div class="trust-row">
-      <span>Nationwide technician network</span>
-      <span>24/7 claim requests</span>
-      <span>No home inspection</span>
-    </div>
+    <section class="faq" id="faq">
+      <h2>Frequently asked questions</h2>
 
-    <p class="legal">
-      Coverage, pricing and terms vary by plan and state. A home warranty is a service contract,
-      not insurance, and does not cover pre-existing conditions or items outside the plan terms.
-      This site is an independent marketing page and is not the plan provider.
-    </p>
+      <div class="qa">
+        <button type="button" aria-expanded="false">Is Choice Home Warranty the same as homeowners insurance?<span class="chev">▾</span></button>
+        <div class="ans">No. Choice Home Warranty offers a home service contract for eligible breakdowns of listed systems and appliances. Homeowners insurance generally addresses covered losses such as fire, theft or certain weather damage.</div>
+      </div>
+      <div class="qa">
+        <button type="button" aria-expanded="false">What is the difference between the Basic Plan and Total Plan?<span class="chev">▾</span></button>
+        <div class="ans">The Total Plan includes the items listed under the Basic Plan and adds air conditioning, refrigerator, clothes washer and clothes dryer coverage, subject to all agreement terms.</div>
+      </div>
+      <div class="qa">
+        <button type="button" aria-expanded="false">Do I pay a fee when I request service?<span class="chev">▾</span></button>
+        <div class="ans">Yes, an applicable service fee is generally due for each service request. The exact amount should appear in your coverage details. Ask for the current fee before purchasing.</div>
+      </div>
+      <div class="qa">
+        <button type="button" aria-expanded="false">Are old appliances eligible?<span class="chev">▾</span></button>
+        <div class="ans">Age alone may not decide eligibility, but the appliance must meet the agreement's conditions. Known or pre-existing problems, improper maintenance and excluded parts or causes can affect coverage.</div>
+      </div>
+      <div class="qa">
+        <button type="button" aria-expanded="false">Can I add pool, septic or roof leak coverage?<span class="chev">▾</span></button>
+        <div class="ans">Optional coverage may be available for items including a pool or spa, septic system, septic pumping and limited roof leak. Availability, price and limits vary, so confirm the exact option on your quote.</div>
+      </div>
+      <div class="qa">
+        <button type="button" aria-expanded="false">Does a covered item always get replaced?<span class="chev">▾</span></button>
+        <div class="ans">No. Under the agreement, Choice Home Warranty may determine whether an eligible item is repaired, replaced or resolved through a cash or cash-equivalent offer. Limits and exclusions apply.</div>
+      </div>
+    </section>
   </main>
 
-  <noscript>
-    <p style="padding:16px;text-align:center">
-      <a href="https://dailybharat.gotrackier.com/click?campaign_id=556&amp;pub_id=2&amp;url_id=2&amp;utm_source=rclmlsn&amp;utm_campaign=SUBID&amp;token=CLICKID">
-        Continue to check plans →
-      </a>
-    </p>
-  </noscript>
+  <footer>
+    <div class="wrap">
+      <div class="foot-grid">
+        <div>
+          <a class="brand" href="#top"><span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2 2.5 9.5l1.3 1.6L5 10.2V21h14V10.2l1.2.9 1.3-1.6L12 2zm4.8 16.8H7.2V8.5L12 4.7l4.8 3.8v10.3z"/></svg></span><span class="brand-name">HomeCover <small>Review</small></span></a>
+          <p class="foot-disc">Independent advertising publication. We may earn compensation from featured offers. Product details can change; verify all terms with the provider before purchase.</p>
+        </div>
+        <div>
+          <h4>Review</h4>
+          <ul><li><a href="#plans">Plans</a></li><li><a href="#coverage">Coverage</a></li><li><a href="#cost">Cost</a></li><li><a href="#faq">FAQ</a></li></ul>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <ul><li><a href="#disclosure">Advertiser disclosure</a></li><li><a href="#">Privacy policy</a></li><li><a href="#">Terms of use</a></li><li><a href="#">Contact</a></li></ul>
+        </div>
+      </div>
+      <div class="copyright">© 2026 HomeCover Review. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <aside class="dock" id="dock" aria-label="Choice Home Warranty quote">
+    <button class="dock-close" id="dockClose" type="button" aria-label="Close offer">×</button>
+    <div class="dock-in">
+      <div><b>Choice Home Warranty</b><span>Compare coverage and get a free quote</span></div>
+      <a href="https://chwpromoonline.com/nlp/a/a2/index.php?utm_source=NETWORKID&amp;utm_campaign={publisher_id}&amp;token={click_id}" class="btn offer-link" data-slot="sticky">Get Quote →</a>
+    </div>
+  </aside>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {"@type":"Question","name":"Is Choice Home Warranty the same as homeowners insurance?","acceptedAnswer":{"@type":"Answer","text":"No. Choice Home Warranty offers a home service contract for eligible breakdowns of listed systems and appliances. Homeowners insurance generally addresses covered losses such as fire, theft or certain weather damage."}},
+      {"@type":"Question","name":"What is the difference between the Basic Plan and Total Plan?","acceptedAnswer":{"@type":"Answer","text":"The Total Plan includes the Basic Plan items and adds air conditioning, refrigerator, clothes washer and clothes dryer coverage, subject to the agreement."}},
+      {"@type":"Question","name":"Do I pay a fee when I request service?","acceptedAnswer":{"@type":"Answer","text":"An applicable service fee is generally due for each service request. The exact amount appears in the customer's coverage details."}},
+      {"@type":"Question","name":"Can I add pool, septic or roof leak coverage?","acceptedAnswer":{"@type":"Answer","text":"Optional coverage may be available for items including a pool or spa, septic system, septic pumping and limited roof leak. Availability, price and limits vary."}}
+    ]
+  }
+  </script>
 
   <script>
-    (function () {
-      "use strict";
+    (function(){
+      var menu=document.getElementById('menu');
+      var nav=document.getElementById('nav');
+      menu.addEventListener('click',function(){
+        var open=nav.classList.toggle('mobile');
+        menu.setAttribute('aria-expanded',open?'true':'false');
+      });
+      nav.querySelectorAll('a').forEach(function(link){
+        link.addEventListener('click',function(){nav.classList.remove('mobile');menu.setAttribute('aria-expanded','false');});
+      });
 
-      var config = window.PRELANDER_CONFIG;
-      var incoming = new URLSearchParams(window.location.search);
-      var questionState = document.getElementById("question-state");
-      var loadingState = document.getElementById("loading-state");
-      var buttons = document.querySelectorAll(".option");
-      var redirectStarted = false;
-
-      function readParameter(keys, fallback) {
-        for (var i = 0; i < keys.length; i++) {
-          var value = incoming.get(keys[i]);
-          if (value) return value;
-        }
-        return fallback;
-      }
-
-      var source = readParameter(["utm_source", "source", "src"], config.FALLBACK_SOURCE);
-      var campaign = readParameter(
-        ["utm_campaign", "subid", "sub_id", "campaign", "cid"],
-        config.FALLBACK_CAMPAIGN
-      );
-      var token = readParameter(
-        ["token", "clickid", "click_id", "gclid", "fbclid", "ttclid"],
-        config.FALLBACK_TOKEN
-      );
-
-      function buildDestination(answer) {
-        var destination = new URL(config.DEST);
-        destination.searchParams.set("utm_source", source);
-        destination.searchParams.set("utm_campaign", campaign);
-        destination.searchParams.set("token", token);
-
-        if (config.PASS_ANSWER && answer) {
-          destination.searchParams.set(config.ANSWER_PARAM, answer);
-        }
-
-        return destination.toString();
-      }
-
-      function handleSelection(button) {
-        if (redirectStarted) return;
-        redirectStarted = true;
-
-        var answer = button.getAttribute("data-answer");
-        var label = button.querySelector(".option-label").textContent.trim();
-
-        button.classList.add("picked");
-
-        for (var i = 0; i < buttons.length; i++) {
-          buttons[i].disabled = true;
-        }
-
-        window.dataLayer = window.dataLayer || [];
-        window.dataLayer.push({
-          event: "prelander_answer",
-          prelander: "chw_home_warranty",
-          answer_value: answer,
-          answer_label: label,
-          utm_source: source,
-          utm_campaign: campaign,
-          click_token: token
+      document.querySelectorAll('.accordion > button,.qa > button').forEach(function(button){
+        button.addEventListener('click',function(){
+          var parent=button.parentElement;
+          var open=parent.classList.toggle('open');
+          button.setAttribute('aria-expanded',open?'true':'false');
         });
+      });
 
-        if (typeof window.fbq === "function") {
-          window.fbq("trackCustom", "PrelanderAnswer", { answer: answer });
-        }
-
-        try {
-          window.sessionStorage.setItem("prelander_answer", answer);
-        } catch (error) {
-          /* Storage may be blocked. The redirect still works. */
-        }
-
-        var destination = buildDestination(answer);
-
-        window.setTimeout(function () {
-          questionState.style.display = "none";
-          loadingState.classList.add("on");
-
-          window.setTimeout(function () {
-            window.location.href = destination;
-          }, config.REDIRECT_DELAY);
-        }, 180);
-      }
-
-      for (var i = 0; i < buttons.length; i++) {
-        buttons[i].addEventListener("click", function () {
-          handleSelection(this);
+      window.dataLayer=window.dataLayer||[];
+      document.querySelectorAll('.offer-link').forEach(function(link){
+        link.addEventListener('click',function(){
+          window.dataLayer.push({
+            event:'offer_click',
+            brand:'choice_home_warranty',
+            placement:link.getAttribute('data-slot')||'unknown',
+            page_type:'review'
+          });
         });
-      }
+      });
 
-      try {
-        var preconnect = document.createElement("link");
-        preconnect.rel = "preconnect";
-        preconnect.href = new URL(config.DEST).origin;
-        document.head.appendChild(preconnect);
-      } catch (error) {
-        /* Invalid destination configuration will not break page rendering. */
-      }
+      var dock=document.getElementById('dock');
+      var close=document.getElementById('dockClose');
+      var dismissed=false;
+      window.addEventListener('scroll',function(){
+        if(!dismissed){dock.classList.toggle('visible',window.scrollY>650);}
+      },{passive:true});
+      close.addEventListener('click',function(){
+        dismissed=true;
+        dock.classList.remove('visible');
+        dock.classList.add('hidden');
+        window.dataLayer.push({event:'offer_dismiss',placement:'sticky'});
+      });
     })();
   </script>
-
-  <!-- Optional Meta Pixel: paste your Pixel/Dataset ID and uncomment this block.
-  <script>
-    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
-    (window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init','YOUR_PIXEL_ID');
-    fbq('track','PageView');
-  </script>
-  -->
 </body>
 </html>
