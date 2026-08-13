@@ -718,6 +718,16 @@ src="https://www.facebook.com/tr?id=1288888586520684&ev=PageView&noscript=1"
   </div>
 
   <script>
+    // Fire Meta Pixel Lead event when any CTA button is clicked.
+    document.addEventListener('click', function (event) {
+      const link = event.target.closest('a.track-link');
+      if (!link) return;
+
+      if (typeof fbq === 'function') {
+        fbq('track', 'Lead');
+      }
+    });
+
     // Preserve inbound query parameters when useful.
     // If your traffic platform already substitutes {publisher_id} and {click_id},
     // the original tracking URL remains intact.
